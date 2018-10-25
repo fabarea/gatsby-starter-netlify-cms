@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar'
 import './all.sass'
+// import { Link } from "gatsby";
 
 const TemplateWrapper = ({ children }) => (
   <div>
