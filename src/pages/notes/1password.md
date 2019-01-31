@@ -1,9 +1,9 @@
 ---
 date: 31.01.2019
-dateTime: '31.01.2019 21:15:28'
 public: true
 tags:
   - password manager
+timeStamp: 1548967507000
 title: 1password
 ---
 

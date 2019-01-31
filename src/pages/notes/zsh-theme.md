@@ -1,7 +1,7 @@
 ---
 date: 31.01.2019
-dateTime: '31.01.2019 21:15:34'
 public: true
+timeStamp: 1548966314000
 title: Zsh-theme
 ---
 

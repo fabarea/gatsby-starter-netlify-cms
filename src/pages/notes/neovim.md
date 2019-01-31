@@ -1,7 +1,7 @@
 ---
 date: 31.01.2019
-dateTime: '31.01.2019 21:15:31'
 public: true
+timeStamp: 1548966312000
 title: Neovim
 ---
 
