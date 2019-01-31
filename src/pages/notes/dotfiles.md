@@ -1,6 +1,6 @@
 ---
 date: 31.01.2019
-dateTime: 2019-01-31T19:46:59.000Z
+dateTime: '31.01.2019 21:15:29'
 public: true
 title: Dotfiles
 ---

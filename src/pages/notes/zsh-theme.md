@@ -1,6 +1,6 @@
 ---
 date: 31.01.2019
-dateTime: 2019-01-31T19:47:02.000Z
+dateTime: '31.01.2019 21:15:34'
 public: true
 title: Zsh-theme
 ---

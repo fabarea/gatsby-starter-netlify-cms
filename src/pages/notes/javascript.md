@@ -1,6 +1,6 @@
 ---
 date: 31.01.2019
-dateTime: 2019-01-31T19:47:00.000Z
+dateTime: '31.01.2019 21:15:31'
 public: true
 title: Javascript
 ---
