@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://fab-notes.netlify.com/* http://notes.omic.ch/:splat 301!
