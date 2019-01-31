@@ -1,7 +1,7 @@
 ---
-date: 31.01.2019
+date: 2019-01-31T20:26:36.000Z
 public: true
-timeStamp: 1548966312000
+timeStamp: 1548966396000
 title: Neovim
 ---
 

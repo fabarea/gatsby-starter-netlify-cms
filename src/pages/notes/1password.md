@@ -1,9 +1,9 @@
 ---
-date: 31.01.2019
+date: 2019-01-31T20:45:44.000Z
 public: true
 tags:
   - password manager
-timeStamp: 1548967507000
+timeStamp: 1548967544000
 title: 1password
 ---
 
