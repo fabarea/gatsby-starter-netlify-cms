@@ -20,24 +20,12 @@ export default class IndexPage extends React.Component {
             {notes.map(({ node: note }) => (
               <div
                 className="content"
-                style={{ border: "1px solid #eaecee", padding: "2em 4em" }}
-                key={note.id}
-              >
-                <p>
+                key={note.id}>
                   <Link className="has-text-primary" to={note.fields.slug}>
                     {note.frontmatter.title}
+                    {note.frontmatter.date && <span style={{color: '#4a4a4a'}}> &bull; </span>}
+                    <small style={{color: '#4a4a4a'}}>{note.frontmatter.date}</small>
                   </Link>
-                  {note.frontmatter.date && <span> &bull; </span>}
-                  <small>{note.frontmatter.date}</small>
-                </p>
-                <p>{note.excerpt}</p>
-                <p>
-                  {/*{post.excerpt}*/}
-                  <br />
-                  <Link className="button is-small" to={note.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
               </div>
             ))}
           </div>
