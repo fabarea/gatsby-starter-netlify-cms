@@ -14,8 +14,9 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">
-                My Notes along the day...
+                My link reponsitory
               </h1>
+              <span className="muted">Collected along the day... Mostly interesting for me.</span>
             </div>
             {notes.map(({ node: note }) => (
               <div
