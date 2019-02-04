@@ -1,7 +1,7 @@
 ---
-date: 2019-01-31T20:26:35.000Z
+date: 2019-01-31T20:59:38.000Z
 public: true
-timeStamp: 1548966395000
+timeStamp: 1548968378000
 title: Dotfiles
 ---
 

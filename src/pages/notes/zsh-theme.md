@@ -1,7 +1,7 @@
 ---
-date: 2019-01-31T20:26:38.000Z
+date: 2019-01-31T20:59:42.000Z
 public: true
-timeStamp: 1548966398000
+timeStamp: 1548968382000
 title: Zsh-theme
 ---
 

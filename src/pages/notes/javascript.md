@@ -1,7 +1,7 @@
 ---
-date: 2019-01-31T20:26:36.000Z
+date: 2019-01-31T20:59:39.000Z
 public: true
-timeStamp: 1548966396000
+timeStamp: 1548968379000
 title: Javascript
 ---
 
