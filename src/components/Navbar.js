@@ -8,9 +8,9 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-start">
         <div className="navbar-brand" style={{float: 'left'}}>
-          <Link to="/" className="navbar-item2">
+          <Link to="/" className="_navbar-item">
             <figure className="image">
-              <img src={logo} alt="Kaldi" style={{ width: '100px', height: '100px' }} />
+              <img src={logo} alt="notes.omic.ch" style={{ width: '100px', height: '100px' }} />
             </figure>
           </Link>
         </div>
