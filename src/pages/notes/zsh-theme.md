@@ -1,5 +1,5 @@
 ---
-date: 2019-03-21T10:39:18.000Z
+date: 2019-03-21T20:05:40.000Z
 public: true
 title: Zsh Theme
 ---
