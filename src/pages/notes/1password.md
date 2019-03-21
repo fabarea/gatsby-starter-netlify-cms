@@ -1,5 +1,5 @@
 ---
-date: 2019-03-21T14:51:27.000Z
+date: 2019-03-21T18:11:17.000Z
 public: true
 tags:
   - password manager
@@ -16,7 +16,7 @@ Solution open source
 
 <https://bitwarden.com/>
 
-On en parle:
+On en parle sur ce site:
 
 <https://www.macg.co/logiciels/2018/04/remembear-fait-ses-premiers-pas-face-1password-102035>
 
