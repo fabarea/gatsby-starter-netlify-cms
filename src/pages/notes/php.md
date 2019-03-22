@@ -1,5 +1,5 @@
 ---
-date: 2019-03-22T12:27:23.000Z
+date: 2019-03-22T14:13:12.000Z
 public: true
 title: PHP
 ---
@@ -16,7 +16,7 @@ brew install php70 --without-apache --with-homebrew-curl --with-homebrew-openssl
 
 Check where are stored the `php.init
 
-``
+```
 php --ini
 ```
 
@@ -331,14 +331,10 @@ API for the php-parser
 PHP CONSTANT
 ============
 
+```
 LF
 PHP_EOF
-
-SetEnv variable
-===============
-
-SetEnv TYPO3_CONTEXT production
-echo $\_SERVER['TYPO3_CONTENT']; 
+```
 
 Mailing Lists
 =============
