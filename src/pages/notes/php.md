@@ -1,5 +1,5 @@
 ---
-date: 2019-03-22T14:13:12.000Z
+date: 2019-03-22T14:20:52.000Z
 public: true
 title: PHP
 ---
@@ -251,21 +251,13 @@ Lessons learned: A failed side project (inspiring reading)
 *   Choosing a scope that allows you to finish a working prototype within 1-2 months is an important key to success.
 *   ...
 
-PHP: Determine absolute link URLs
-=================================
+## PHP: Determine absolute link URLs
 
 <http://cweiske.de/tagebuch/php-absolute-link-urls.htm>
 
-The Closure class
-=================
 
-Request for Comments
-====================
+## Autoload and TYPO3
 
-<https://wiki.php.net/rfc>
-
-Autoload and TYPO3
-==================
 
 <http://wiki.typo3.org/Autoload>
 
@@ -396,67 +388,6 @@ library - A simple stateless production rules engine for PHP 5.3.
 
 <https://github.com/bobthecow/Ruler>
 
-recipes link PHP - FPM
-======================
-
-<https://github.com/cocoy/chef-php5-fpm/issues/1>
-
-Installing multiple versions of PHP from source (compile php from source code)
-==============================================================================
-
-<http://mark-story.com/posts/view/installing-multiple-versions-of-php-from-source>
-
-En route vers PHP 5.5 : Installation d'une version de test (sous linux)
-=======================================================================
-
-<http://blog.pascal-martin.fr/post/php-5.5-installation-version-de-test-linux>
-
-Facebook libère son compilateur PHP just-in-time HipHop Virtual Machine (ou HHVM)
-=================================================================================
-
-<http://linuxfr.org/news/facebook-lib%C3%A8re-son-compilateur-php-just-in-time-hiphop-virtual-machine-ou-hhvm>
-
-HipHop VM (video)
-<http://thephp.cc/viewpoints/blog/2014/07/hhvm-the-alternative-php-runtime>
-
-Apache Zeta Components - list of feature
-========================================
-
-<http://incubator.apache.org/zetacomponents/documentation/trunk.html> (ConsoleTools - Webdav)
-
-PHP 5.3 Object Oriented image manipulation library
-==================================================
-
-<https://github.com/avalanche123/Imagine>
-
-Buzz is a lightweight PHP 5.3 library for issuing HTTP requests. REST
-=====================================================================
-
-<https://github.com/kriswallsmith/Buzz>
-
-The PHP tool to play with phar
-==============================
-
-<http://empir.sourceforge.net/>
-
-<http://www.slideshare.net/helgith/phar-the-php-exe-format>
-
-Strong data typing in PHP, part II: autoboxing and indestructable objects [english version]
-===========================================================================================
-
-<http://php.webtutor.pl/index.php/2011/04/13/strong-data-typing-in-php-part-ii-autoboxing-and-indestructable-objects-english-version/>
-
-Useful dump method
-==================
-
-<http://philsturgeon.co.uk/news/2010/09/power-dump-php-applications>
-
-HipHOP
-======
-
-<http://sebastian-bergmann.de/archives/880-My-Take-on-Facebooks-HipHop-for-PHP.html#content>
-
-<http://sebastian-bergmann.de/archives/894-Using-HipHop-for-Static-Analysis.html#content>
 
 XMP PHP Toolkit v2.0
 ====================
@@ -479,31 +410,6 @@ Templating Engines in PHP
 
 <http://fabien.potencier.org/article/34/templating-engines-in-php>
 
-PHP 5.3.0 on Mac OS 10.6 (Snow Leopard)
-=======================================
-
-<http://fabien.potencier.org/article/37/php-5-3-0-on-mac-os-10-6-snow-leopard>
-
-The state of YAML in PHP
-========================
-
-<http://fabien.potencier.org/article/40/the-state-of-yaml-in-php>
-
-Parsing XML documents with CSS selectors
-========================================
-
-<http://fabien.potencier.org/article/42/parsing-xml-documents-with-css-selectors>
-
-SERIALIZE
-=========
-
-<http://blog.tanist.co.uk/files/unserialize/index.php>
-
-PHP AND WINDOWS
-===============
-
-<http://www.developpez.net/forums/d832538/php/langage/php-5-3-sous-windows-plus-nouveautes-quon-croit/>
-
 CLUSTER FILE SYSTEM ECRIT EN PHP
 ================================
 
@@ -518,255 +424,71 @@ PHP LANGUAGE PROGRAMME
 
 <http://unearaigneeauplafond.fr/php-langage-interprete-compile>
 
-ANNOTATION FLOW3
-================
-
-<http://www.nexen.net/actualites/php/18830-situation_des_annotations_dans_le_monde_php.php>
-
-TINYURL
-=======
-
-<http://web-01.blogspot.com/2008/09/hbergez-tinyurl-sur-votre-propre.html>
-
-PGP GNUPG
-=========
-
-<http://www.nexen.net/actualites/php/18603-utiliser_gnupg_avec_php.php>
-
-NOMBRE DE FONCTION PHP
-======================
-
-\-> dans les divers... (fonctions internal - fonction user)$x = get_defined_functions(); echo count($x["internal"]);
-
-TRUC ASCTUCES VALEUR PAR DEFAUT
-===============================
-
-<http://www.nexen.net/actualites/trucs/18503-valeurs_par_defaut_en_une_passe.php>
-
-FONCTION ANONYME
-================
-
-<http://wiki.php.net/rfc/closures>
-
-CAKEPHP CRAWLING LINK
-=====================
-
-<http://www.debuggable.com/posts/crawl-google-they-do-the-same-to-you:484ebdeb-bbe8-45fa-ad0f-26b14834cda3>
-
-REFACTORING
-===========
-
-<http://www.nexen.net/actualites/php/18190-detecter_les_besoins_de_refactorisation.php>
-
-Guzzle
-======
-
-Guzzle is a PHP 5.3+ HTTP client and framework for building RESTful web service clients
-
-<http://guzzlephp.org/index.html>
-
-<http://www.sitepoint.com/guzzle-php-http-client/>
-
-CALENDRIER
-==========
-
-require_once dirname(**FILE**) . '/path/to/include.inc.php';require_once **DIR** . '/path/to/include.inc.php';<http://usrportage.de/archives/878-New-magic-constant-in-PHP-5.3.html>
-
-CALENDRIER
-==========
-
-<http://www.nexen.net/actualites/web/18130-galerie_de_calendriers.php>
-
-NOWDOCS HEREDOC PHP 5.3
-=======================
-
-<http://blog.ulf-wendel.de/?feed=atom>
-
-<http://www.nexen.net/actualites/trucs/18096-nowdocs_debarque_en_php_5.3.php>
-
-\->; nouveauté
-
-<http://www.developpez.net/forums/d637984/php/langage/pensez-php-5-3-a/>
-
-INTERNATIONALISER LOCALISATION LANG
-===================================
-
-\-> pr avoir les langues supportéslocale -a-> fonction PHP utile (PECL)
-<http://fr2.php.net/manual/en/book.intl.php>
-
-<http://www.nexen.net/actualites/tutorial/comment_internationaliser_votre_application_php.php>
-
-<http://www.nexen.net/actualites/tutorial/16833-nouveau_tutoriel_sur_le_zend_framework_:_zend_locale_et_zend_translate.php>
-
-<http://sourceforge.net/projects/rthree>
-
-<http://sourceforge.net/docman/display_doc.php?docid=51463&group_id=192720->;>; article
-<http://micropipes.com/blog/2007/07/26/ten-tips-for-website-localization/>
-
-BUG PHP
-=======
-
-\-> utilisation de $\_SERVER non cohérente sur tous les serveur, bug de la galerie ?<http://ljouanneau.com/blog/2008/01/03/740-jelix-10rc2-incoherences-de-php>
-
-XMI GÉNÉRATEUR GENERATOR UML
-============================
-
-\-> DE PHP VERS UML (!) analyse du code qui est traduit en XML, puis UML<http://www.nexen.net/actualites/logiciels/17927-phimx_:_php_vers_xmi.php->>; acceleo<http://linuxfr.org/2008/01/21/23592.html>
-
-RATING VOTE
-===========
-
-<http://www.masugadesign.com/the-lab/scripts/unobtrusive-ajax-star-rating-bar/http://widgets.rabidlabs.net/ratings/v1.2/>
-
-AUTH
-====
-
-\-> équivalent à OpenID <http://oauth.net/>
-
-Using Guzzle with Twitter via Oauth
-<http://www.sitepoint.com/using-guzzle-twitter-via-oauth/>
-
-SYSLOG
-======
-
-<http://www.moolfreet.com/revuedepresse/post/2007/10/18/Exploiter-Syslog-a-partir-de-PHP>
-
 LIVRE BOOK FORMATION OPTIMISATION
 =================================
 
-\-> cours Online
+
+* cours Online
 <http://tahe.developpez.com/#LIII>
 
-\-> 10 erreurs courrantes
+* 10 erreurs courrantes
 
 <http://nettuts.com/articles/are-you-making-these-10-php-mistakes/>
-\-> articles
+* articles
 <http://www.phpsolmag.org/prt/view/nos-articles.html->;>; forum
 <http://www.developpez.net/forums/f25/php/langage/->;>; good practice
 <http://www.phpfour.com/blog/2008/10/02/become-kick-ass-php-ninja-from-newbie-guide-tips/>
 
-\->; programmer avec sécurité (article d'IBM, moyennement compréhensible)
+* programmer avec sécurité (article d'IBM, moyennement compréhensible)
 <http://www.ibm.com/developerworks/opensource/library/os-php-secure-apps/index.html>
 
-\->; tutorial avec netbeans (DB + PHP + CSS)
+* tutorial avec netbeans (DB + PHP + CSS)
 <http://www.netbeans.org/kb/docs/php/wish-list-tutorial-main-page.html>
 
-\->; TUTORIAL
+* TUTORIAL
 <http://g-rossolini.developpez.com/tutoriels/php/cours/>
 
-\->; eBookDocuments/formation/eBook
-\-> les bases PHP ressources HTML
+* eBookDocuments/formation/eBook
+* les bases PHP ressources HTML
 <http://www.nexen.net/actualites/php/18431-les_bases_en_php.php>
 
 <http://www.landofcode.com/php/>
 
-\->; un Wiki sur PHP
+* un Wiki sur PHP
 <http://hudzilla.org/phpwiki/index.php?title=Main_Page>
 
-\-> formation en ligne
+* formation en ligne
 <http://www.lemondeinformatique.fr/actualites/lire-zend-delivre-ses-formations-php-en-ligne-et-en-francais-25485.htmlSourced'information> : # classeur formation# cours HTML - PDF (tutorial) # articles Web (moteur de recherche)# flux RSS# livres (pour des conseils, jeter un oeil sur developpez.com- il y a la collection coffret technique éven.)# video# podcastg
 
-\-> cours php comem
-\-> différent flux RSS (cf Firefox 2)
-\-> sous forme de FAQ / Question
+* cours php comem
+* différent flux RSS (cf Firefox 2)
+* sous forme de FAQ / Question
 <http://php.developpez.com/faq/>
 
 <http://php.developpez.com/sources/>
 
-\->; podcast vue d'ensemble de php
+* podcast vue d'ensemble de php
 <http://www.phpfrance.com/tutoriaux/index.php/2007/12/20/46-le-marche-php-en-france>
 
-\->; podcast développement avec Agile
+* podcast développement avec Agile
 <http://audiobank.tryphon.org/static/cast/3439.mp3>
 
 <http://feeds.feedburner.com/forumphp2007(il> y en a d'autres mais moins intéressants)
 
-\-> tutorial avancé méthodes magiques avec PHP 5
+* tutorial avancé méthodes magiques avec PHP 5
 <http://www.phpfrance.com/tutoriaux/index.php/2006/05/11/43-les-methodes-magiques-avec-php-5#a6>
 
-\->; résumé des conférence ForumPHP2007
+* résumé des conférence ForumPHP2007
 <http://afup.org/pages/forumphp2007/resumes.php>
 
-\-> travaux pratique PHP
+* travaux pratique PHP
 <http://www.grappa.univ-lille3.fr/~torre/guide.php?id=tpphp>
 
-\->; tutorial online (référence facile)
+* tutorial online (référence facile)
 <http://www.phpsources.org/tutoriels-all.htm>
 
-\->; tutorial MVC
+* tutorial MVC
 <http://julien-pauli.developpez.com/tutoriels/php/mvc-controleur/>
 
-\->; e-book
+* e-book
 <http://www.techotopia.com/index.php/PHP_Essentials>
-
-FRAMEWORK
-=========
-
-\-> Article - comparatif
-<http://www.karlkatzke.com/php-symfony-vs-zend/>
-
-\-> recueil de framework
-<http://www.snook.ca/archives/php/zend_framework_first_impressions/>
-
-<http://www.phpit.net/article/ten-different-php-frameworks/#fr-footnote-3>
-
-<http://www.phpwact.org/php/mvc_frameworks>
-
-<http://www.developpez.net/forums/showthread.php?t=84784&page=4>
-
-<http://www.pradosoft.com/forum/index.php/topic,6264.msg29155.htmlYii?>
-
-<http://www.yiiframework.com/cakephp->>
-
-<http://www.snook.ca/archives/cakephp/jelix?copix> ?parod ?symfony ?
-<http://www.phpontrax.com/?blueshoes.orgQcodo...ou> solar ->
-
-<http://www.solarphp.com/ou>
-
-<http://codeigniter.com/ouzend>
-
-<http://julien-pauli.developpez.com/tutoriels/zend-framework/presentation/Avoir> l'évolution de tout ce petit monde "carnassier" comme disait quelque'un ...benchmark ->
-
-<http://paul-m-jones.com/blog/?p=238>
-\->
-
-<http://www.nexen.net/actualites/php/premier_benchmark_2007_pour_les_frameworks_php.php3framework> teste
-<http://www.ibm.com/developerworks/opensource/library/os-php-fwk2/?S_TACT=105AGX44&S_CMP=TUT#downloads>
-
-DATABASE ABSTRACTION
-====================
-
-ressemble a notre mysqdb.php -><http://www.jacwright.com/projects/database/usage> et propel sont deux librairie tres differente dans leur but.propel est ce que tu cherches pour mapper des objets, et utilise sont propre equivalent de adodb, a savoir creole, comme database abstraction layer. (moi perso j'aime bien creole, et je bosse sur des driver creole avec pdo)
-=============================================================================================================================================================================================================================================================================================================================================================================
-
-<http://pear.php.net/package/MDB2/http://joseph.randomnetworks.com/archives/2006/04/04/php-database-functions-vs-peardb-vs-adodb/>
-
-<http://www.phpdb.org/>
-
-DESIGN PATTER OBSERVATEUR
-=========================
-
-<http://bit.ly/3nzjUY>
-
-API GOOGLE ET YAHOO AVEC PHP
-============================
-
-à tester ... celle de google ne marchait pas
-<http://classes.scriptsphp.org/article.Rechercher-sur-le-web-avec-les-API-Yahoo-et-Google>
-
-OPEN OFFICE --> XHTML
-=====================
-
-à tester ... ancienne page encore basee sur sxw
-<http://classes.scriptsphp.org/article.De-OOo-a-Xhtml-via-XSLT>
-
-Open Document PHP : manipulations de document Open Office en PHP
-================================================================
-
-<http://sourceforge.net/projects/htprotector>
-
-DATE
-====
-
-\-> nouvelle API avec PHP 5.1
-ftp://ftp-developpez.com/magazine/DevMag200806.pdf
